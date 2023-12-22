@@ -5,7 +5,7 @@ import { Login } from './pages/Login'
 import { ConfirmAccount } from './pages/ConfirmAccount'
 import { ForgotPassword } from './pages/ForgotPassword'
 import { Register } from './pages/Register'
-import { Perfil } from './pages/Perfil'
+// import { Perfil } from './pages/Perfil'
 import axios from 'axios'
 import { NewPassword } from './pages/NewPassword'
 
@@ -18,9 +18,10 @@ import { EditProfile } from './pages/EditProfile'
 import { ChangePassword } from './pages/ChangePassword'
 
 
-// axios.defaults.baseURL = 'http://localhost:3026/api'
+// axios.defaults.baseURL = 'http://localhost:3500/api'
 
-axios.defaults.baseURL = 'https://apv-backend-dev-dtah.4.us-1.fl0.io/api'
+// axios.defaults.baseURL = 'https://apv-backend-dev-dtah.4.us-1.fl0.io/api'
+axios.defaults.baseURL = 'http://13.58.49.158:3500/api'
 
 
 
